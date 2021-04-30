@@ -164,3 +164,6 @@ address p{
 .copy p{
     margin: 0px;
 }
+.footer-box a:hover{
+    color:aqua;
+}
