@@ -1,0 +1,13 @@
+body{
+    margin: 0 auto;
+    background-color: gainsboro;
+}
+div#logo > a > img{
+    width: 7%;
+}
+.container{
+    width: 1000px;
+    height: auto;
+    background-color: white;
+    margin: auto;
+}

@@ -1,0 +1,17 @@
+#box{
+  width: 500px;
+    height: auto;
+}
+.box-text{
+    color: red;
+    font-style: bold;
+}
+p{
+    color: orange;
+    font-style: italic;
+}
+div#box > p > span{
+    font-weight: bold;
+    color: black;
+}
+}
