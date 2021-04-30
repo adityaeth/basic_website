@@ -39,6 +39,11 @@
                 </ul>
             </nav><!--nav-->
         </header><!--header-->
+
+        <section class="banner">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243641.92994387264!2d78.20513871640625!3d17.416338700000008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb95a80b202391%3A0xfc913f799af6c748!2sGoogle!5e0!3m2!1sen!2sin!4v1619780784467!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section><!--Google Maps-->
+
         <section class="content-holder"><!--content holder-->
             <article class="content"><!--content-->
                 <main>
@@ -46,21 +51,39 @@
                     <p>
                         Lorem ipsu  m dolor sit amet consectetur adipisicing elit. 
                         Consequuntur possimus quae illum asperiores quis, similique
-                         facere facilis aperiam velit laboriosam amet. Necessitatibus
-                          vero, accusantium qui sequi sint repellat eum debitis?
+                         facere facilis aperiam velit laboriosam amet.
                     </p>
-                    <img src="images/best-about-us-pages.jpg" alt="about us">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                         Consequuntur possimus quae illum asperiores quis, similique
-                          facere facilis aperiam velit laboriosam amet. Necessitatibus 
-                          vero, accusantium qui sequi sint repellat eum debitis? Lorem 
-                          ipsum dolor sit amet consectetur adipisicing elit. 
-                          Iusto perferendis ut, dignissimos error quasi assumenda 
-                          quae sint architecto corrupti molestias vero quia maiores
-                           eaque iste officia accusantium placeat id rem.
-                    </p>
-
+                    <div class="contact-form"></div>
+                    <form>
+                        <table>
+                            <tr>
+                                <td>Name</td>
+                                <td><input type="text" name="c_name" required></td>
+                            </tr>
+                            <tr>
+                                <td>Email</td>
+                                <td><input type="email" name="c_email" required></td>
+                            </tr>
+                            <tr>
+                                <td>Phone</td>
+                                <td><input type="tel" name="c_tel" required></td>
+                            </tr>
+                            <tr>
+                                <td>Subject</td>
+                                <td><input type="text" name="c_sub" required></td>
+                            </tr>
+                            <tr>
+                                <td>Message</td>
+                                <td>
+                                    <textarea name="c_message" id="" cols="22" rows="8"></textarea>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td><input type="submit" name="c_send" value="Send Message"></td>
+                            </tr>
+                        </table>
+                        </form>
                 </main>
             </article><!--content-->
         <aside class="sidebar">
