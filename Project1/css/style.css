@@ -147,3 +147,20 @@ div.logo > a > img{
     color: white;
     text-decoration: none;
 }
+address p{
+    font-size: small;
+}
+.footer-box address a{
+    color: teal;
+    font-size: small;   
+}
+.copy{
+    font-family: sans-serif;
+    padding: 20px;
+    text-align: center;
+    background-color: crimson;
+    color: white;
+}
+.copy p{
+    margin: 0px;
+}
